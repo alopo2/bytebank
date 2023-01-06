@@ -7,7 +7,7 @@ export class ContaCorrente extends Conta {
         super(0, cliente, agencia);
         ContaCorrente.numeroDeContas += 1;
     }
-
+    //O método sacar está sobreescrevendo o comportamento de sacar
     sacar(valor) {
         let taxa = 1.1;
         return this._sacar(valor, taxa);
