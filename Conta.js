@@ -25,7 +25,7 @@ export class Conta {
 
     //Método feito pra ser sobreescrito
     sacar(valor) {
-
+        throw new Error("O método da Sacar da Conta é abstrato. Precisa ser sobreescrito.")
     }
 
     _sacar(valor, taxa) {
