@@ -23,9 +23,9 @@ export class Conta {
         return this._saldo;
     }
 
+    //Método feito pra ser sobreescrito
     sacar(valor) {
-        let taxa = 1;
-        return this._sacar(valor, taxa);
+
     }
 
     _sacar(valor, taxa) {
